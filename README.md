@@ -9,13 +9,23 @@ VCC-docker-Folder consists of   Docker compose file: It contains four set of doc
 ![image](https://user-images.githubusercontent.com/26459890/144478509-2e0ea3ac-e1e9-4e6d-b10a-864f8fdb0548.png)
 VCC-cerificate-Folder consists: These consists of keys which is generated with the help of open ssl commands. The Encryption scheme used is RSA-2048 : https://github.com/Shristy-Gupta/End-Sem-VCC-M20CS015/tree/main/vcc-certificate-folder
 
+
+
+There are two components in the project 1) To run the container in the dockerize environment and 2) To enable security 
+1) To run the four stacks in different components we need to run the docker compose file that contains four set of docker containers.
+2) Security is enabled by following ways:
+  a)	SSL security is established, the steps are mentioned as above: The certificates and the keys are generated and the steps are described above
+  b)	Kapacitor is made secured with the help of password protection 
+  c)	Influx DB is secured with the help of password protection 
+  d)	Any anomaly or unauthenticated access will be detected and alerted out of TICK dashboard with the help of alert system
+
 To create the open SSL security:
 ```
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout mycert.pem -out mykey.pem
 ```
 ![image](https://user-images.githubusercontent.com/26459890/144478941-22caed02-3c67-4116-8adf-b205217c6571.png)
 
-To give access rights:
+To get more information please visit https://www.youtube.com/watch?v=qBb7-lLYgM4 
 
 
 
