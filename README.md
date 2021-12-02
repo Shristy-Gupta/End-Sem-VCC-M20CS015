@@ -10,7 +10,7 @@ VCC-docker-Folder consists of   Docker compose file: It contains four set of doc
 VCC-cerificate-Folder consists: These consists of keys which is generated with the help of open ssl commands. The Encryption scheme used is RSA-2048 : https://github.com/Shristy-Gupta/End-Sem-VCC-M20CS015/tree/main/vcc-certificate-folder
 
 To create the open SSL security:
-'''sh
+'''
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout mycert.pem -out mykey.pem
 '''
 ![image](https://user-images.githubusercontent.com/26459890/144478941-22caed02-3c67-4116-8adf-b205217c6571.png)
