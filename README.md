@@ -27,6 +27,15 @@ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout mycert.pem -ou
 
 To get more information please visit https://www.youtube.com/watch?v=qBb7-lLYgM4 
 
+TICK STACK file can now be accessed and will look like:
+![image](https://user-images.githubusercontent.com/26459890/144496068-c1c2272f-0190-402c-bdf3-973834197e06.png)
+![image](https://user-images.githubusercontent.com/26459890/144496086-cb2e99d2-19be-4c66-9c38-022362c2b1c6.png)
+Also the alert rules will look like:
+![image](https://user-images.githubusercontent.com/26459890/144496119-4d94052a-da33-4a5f-b3b6-8731b23af9e6.png)
+![image](https://user-images.githubusercontent.com/26459890/144496175-f0b3e89e-ea88-4ae6-ba44-1f19d33f4daa.png)
+
+
+
 
 
 
